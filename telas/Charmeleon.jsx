@@ -13,7 +13,7 @@ export default function Charmeleon() {
         <Text style={estilosCharmeleon.descricao}>
         Altura: 1,1 m<br/>
         Peso: 19,0 kg<br/>
-        Tipo: Fogo<br/>
+        Tipo: Fogo<br/>''
         Fraquezas: Água, Terra, Rocha
         </Text>
       </View>
