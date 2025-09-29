@@ -1,20 +1,20 @@
 import { View, Text, StatusBar, Image, StyleSheet } from "react-native";
 
-export default function Bulbassauro() {
+export default function Zubat() {
   return (
-    <View style={estilosBulbas.tela}>
+    <View style={estilosZubat.tela}>
       <Image
-        source={require("../imagens/bulbassauro.png")}
+        source={require("../imagens/Zubat.png")}
         style={{ width: 200, height: 200 }}
         resizeMode="contain"
       />
-      <Text style={estilosBulbas.titulo}>Bulbassauro</Text>
-      <View style={estilosBulbas.cxDescricao}>
-        <Text style={estilosBulbas.descricao}>
-          - Altura: 0,7 m <br/>
-          - Peso: 6,9 kg<br/>
-          - Tipo: Planta/Poison<br/>
-          - Fraquezas: Fogo, Ice, Flying, Psychic
+      <Text style={estilosZubat.titulo}>Zubat</Text>
+      <View style={estilosZubat.cxDescricao}>
+        <Text style={estilosZubat.descricao}>
+        Altura: 0,8 m<br/>
+        Peso: 7,5 kg<br/>
+        Tipo: Veneno/Voador<br/>
+        Fraquezas: Elétrico, Psíquico, Gelo, Rocha
         </Text>
       </View>
       <StatusBar hidden={true} />
@@ -22,9 +22,9 @@ export default function Bulbassauro() {
   );
 }
 
-export const estilosBulbas = StyleSheet.create({
+export const estilosZubat = StyleSheet.create({
   tela: {
-    backgroundColor: "#2bb72b",
+    backgroundColor: "#6c436e",
     flex: 1,
     alignItems: "center",
     paddingTop: 30,

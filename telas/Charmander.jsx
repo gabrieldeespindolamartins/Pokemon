@@ -1,20 +1,20 @@
 import { View, Text, StatusBar, Image, StyleSheet } from "react-native";
 
-export default function Bulbassauro() {
+export default function Charmander() {
   return (
-    <View style={estilosBulbas.tela}>
+    <View style={estilosMander.tela}>
       <Image
-        source={require("../imagens/bulbassauro.png")}
+        source={require("../imagens/Charmander.png")}
         style={{ width: 200, height: 200 }}
         resizeMode="contain"
       />
-      <Text style={estilosBulbas.titulo}>Bulbassauro</Text>
-      <View style={estilosBulbas.cxDescricao}>
-        <Text style={estilosBulbas.descricao}>
-          - Altura: 0,7 m <br/>
-          - Peso: 6,9 kg<br/>
-          - Tipo: Planta/Poison<br/>
-          - Fraquezas: Fogo, Ice, Flying, Psychic
+      <Text style={estilosMander.titulo}>Charmander</Text>
+      <View style={estilosMander.cxDescricao}>
+        <Text style={estilosMander.descricao}>
+        Altura: 0,6 m<br/>
+        Peso: 8,5 kg<br/>
+        Tipo: Fogo<br/>
+        Fraquezas: Água, Terra, Rocha
         </Text>
       </View>
       <StatusBar hidden={true} />
@@ -22,9 +22,9 @@ export default function Bulbassauro() {
   );
 }
 
-export const estilosBulbas = StyleSheet.create({
+export const estilosMander = StyleSheet.create({
   tela: {
-    backgroundColor: "#2bb72b",
+    backgroundColor: "#9b4e32",
     flex: 1,
     alignItems: "center",
     paddingTop: 30,

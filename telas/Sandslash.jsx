@@ -1,20 +1,20 @@
 import { View, Text, StatusBar, Image, StyleSheet } from "react-native";
 
-export default function Bulbassauro() {
+export default function Sandslash() {
   return (
-    <View style={estilosBulbas.tela}>
+    <View style={estilosSandslash.tela}>
       <Image
-        source={require("../imagens/bulbassauro.png")}
+        source={require("../imagens/Sandslash.png")}
         style={{ width: 200, height: 200 }}
         resizeMode="contain"
       />
-      <Text style={estilosBulbas.titulo}>Bulbassauro</Text>
-      <View style={estilosBulbas.cxDescricao}>
-        <Text style={estilosBulbas.descricao}>
-          - Altura: 0,7 m <br/>
-          - Peso: 6,9 kg<br/>
-          - Tipo: Planta/Poison<br/>
-          - Fraquezas: Fogo, Ice, Flying, Psychic
+      <Text style={estilosSandslash.titulo}>Sandslash</Text>
+      <View style={estilosSandslash.cxDescricao}>
+        <Text style={estilosSandslash.descricao}>
+        Altura: 1,0 m<br/>
+        Peso: 29,5 kg<br/>
+        Tipo: Terra<br/>
+        Fraquezas: Água, Gelo, Planta
         </Text>
       </View>
       <StatusBar hidden={true} />
@@ -22,9 +22,9 @@ export default function Bulbassauro() {
   );
 }
 
-export const estilosBulbas = StyleSheet.create({
+export const estilosSandslash = StyleSheet.create({
   tela: {
-    backgroundColor: "#2bb72b",
+    backgroundColor: "#b28b32",
     flex: 1,
     alignItems: "center",
     paddingTop: 30,
